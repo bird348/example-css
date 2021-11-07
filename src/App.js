@@ -11,7 +11,7 @@ import ToggleableTabs from "./containers/menus/taps/ToggleableTabs";
 import FadeInTabs from "./containers/menus/taps/FadeInTabs";
 import CloseAtab from "./containers/menus/taps/CloseAtab";
 import VerticalTabs from "./containers/menus/vertical-tabs/verticalTabs";
-import TabHeaders from "./containers/tab-headers/TabHeaders";
+import TabHeaders from "./containers/menus/tab-headers/TabHeaders";
 
 
 

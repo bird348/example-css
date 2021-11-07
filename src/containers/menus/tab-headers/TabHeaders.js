@@ -1,5 +1,5 @@
-import '../../css-set/tab-headers/tabHeaders.css';
-import Nav from '../../components/Nav';
+import '../../../css-set/tab-headers/tabHeaders.css';
+import Nav from '../../../components/Nav';
 import { useEffect } from 'react';
 
 
@@ -8,7 +8,7 @@ function TabHeaders() {
     useEffect(() => {
         document.getElementById("defaultOpen").click();
     }, [])
-    function openCity(cityName, color) {
+    function openCity(cityName, buttonColor, color) {
         var i, tabcontent, tablink;
 
         tabcontent = document.getElementsByClassName("h-tabcontent");
@@ -22,7 +22,7 @@ function TabHeaders() {
         }
 
         document.getElementById(cityName).style.display = "block";
-        document.getElementById(cityName).style.backgroundColor = color;
+        document.getElementsByTagName("BUTTON")[buttonColor].style.backgroundColor = color;
         
     }
 
@@ -50,10 +50,10 @@ function TabHeaders() {
                     <p>Oslo is the capital of Norway.</p>
                 </div>
 
-                <button className="h-tablink" onClick={() => openCity("London", "red")} id="defaultOpen">London</button>
-                <button className="h-tablink" onClick={() => openCity("Paris", "green")}>Paris</button>
-                <button className="h-tablink" onClick={() => openCity("Tokyo", "blue")}>Tokyo</button>
-                <button className="h-tablink" onClick={() => openCity("Oslo", "orange")}>Oslo</button>
+                <button className="h-tablink" id="red-button" onClick={() => openCity("London", 0, "red")} id="defaultOpen">London</button>
+                <button className="h-tablink" id="green-button" onClick={() => openCity("Paris", 1, "green")}>Paris</button>
+                <button className="h-tablink" id="blue-button" onClick={() => openCity("Tokyo", 2, "blue")}>Tokyo</button>
+                <button className="h-tablink" id="orange-button" onClick={() => openCity("Oslo", 3, "orange")}>Oslo</button>
             </div>
         </div>
     )
