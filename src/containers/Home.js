@@ -19,6 +19,7 @@ function Home() {
                     <li><Link to="/menus/tabs/fade-in-tabs">Fade in Tabs Taps</Link></li>
                     <li><Link to="/menus/tabs/close-a-tabs">Close a tabs</Link></li>
                     <li><Link to="/menus/vertical-tabs/vertical-tabs-basic">Vertical Tabs Basic</Link></li>
+                    <li><Link to="/menus/tab-headers/tab-headers-basic">Tab Headers</Link></li>
                 </ul>
             </div>
         </div>
