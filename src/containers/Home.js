@@ -20,6 +20,10 @@ function Home() {
                     <li><Link to="/menus/tabs/close-a-tabs">Close a tabs</Link></li>
                     <li><Link to="/menus/vertical-tabs/vertical-tabs-basic">Vertical Tabs Basic</Link></li>
                     <li><Link to="/menus/tab-headers/tab-headers-basic">Tab Headers</Link></li>
+                    <li><Link to="/menus/full-page-tabs/full-page-tabs-basic">Full Page Tabs</Link></li>
+                    <li><Link to="/menus/hover-tabs/hover-tabs-basic">Hover Tabs</Link></li>
+                    <li><Link to="/menus/top-navigation/top-navigation-basic">Top Navigation</Link></li>
+                    <li><Link to="/menus/responsive-navigation-bar/responsive-navigation-bar-basic">Responsive Navigation Bar</Link></li>
                 </ul>
             </div>
         </div>

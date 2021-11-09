@@ -1,4 +1,8 @@
-.h-tablink {
+
+
+* {box-sizing: border-box}
+
+.full-tablink {
     background-color: #555;
     color: white;
     float: left;
@@ -7,29 +11,31 @@
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
+    width: 25%
 }
 
-.h-tablink:hover {
+.full-tablink:hover {
     background-color: #777;
 }
 
-.h-tabcontent {
+.full-tabcontent {
     color: white;
     display: none;
-    padding: 50px;
-    text-align: center;
+    padding: 100px 20px;
+    height: 100%;
 }
 
-#London-h {
+#Home-full {
     background-color: red;
 }
-#Paris-h {
+
+#News-full {
     background-color: green;
 }
-#Tokyo-h {
+
+#Contact-full {
     background-color: blue;
 }
-#Oslo-h {
+#About-full {
     background-color: orange;
 }

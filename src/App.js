@@ -12,6 +12,10 @@ import FadeInTabs from "./containers/menus/taps/FadeInTabs";
 import CloseAtab from "./containers/menus/taps/CloseAtab";
 import VerticalTabs from "./containers/menus/vertical-tabs/verticalTabs";
 import TabHeaders from "./containers/menus/tab-headers/TabHeaders";
+import FullPageTabs from "./containers/menus/full-page-tabs/FullPageTabs";
+import HoverTabs from "./containers/menus/hover-tabs/HoverTabs";
+import TopNavigation from "./containers/menus/top-navigation/TopNavigation";
+import ResponsiveNavBar from "./containers/menus/responsive-navigation-bar/ResponsiveNavBar";
 
 
 
@@ -57,6 +61,18 @@ function App() {
         </Route>
         <Route path="/menus/tab-headers/tab-headers-basic" exact>
           <TabHeaders />
+        </Route>
+        <Route path="/menus/full-page-tabs/full-page-tabs-basic" exact>
+          <FullPageTabs />
+        </Route>
+        <Route path="/menus/hover-tabs/hover-tabs-basic" exact>
+          <HoverTabs />
+        </Route>
+        <Route path="/menus/top-navigation/top-navigation-basic" exact>
+          <TopNavigation />
+        </Route>
+        <Route path="/menus/responsive-navigation-bar/responsive-navigation-bar-basic" exact>
+          <ResponsiveNavBar />
         </Route>
       </Switch>
     </Router>
