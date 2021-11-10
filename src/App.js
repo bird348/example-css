@@ -16,6 +16,7 @@ import FullPageTabs from "./containers/menus/full-page-tabs/FullPageTabs";
 import HoverTabs from "./containers/menus/hover-tabs/HoverTabs";
 import TopNavigation from "./containers/menus/top-navigation/TopNavigation";
 import ResponsiveNavBar from "./containers/menus/responsive-navigation-bar/ResponsiveNavBar";
+import NavBarIcon from "./containers/menus/navbar-icon/NavBarIcon";
 
 
 
@@ -73,6 +74,9 @@ function App() {
         </Route>
         <Route path="/menus/responsive-navigation-bar/responsive-navigation-bar-basic" exact>
           <ResponsiveNavBar />
+        </Route>
+        <Route path="/menus/navbar-icon/navbar-icon-basic" exact>
+          <NavBarIcon />
         </Route>
       </Switch>
     </Router>

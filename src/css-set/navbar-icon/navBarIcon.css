@@ -1,0 +1,29 @@
+.navbar-icon {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar-icon a {
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-icon a:hover {
+    background-color: #000;
+}
+
+.active-nbi {
+    background-color: #04aa60;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-icon a {
+        float: none;
+        display: block;
+    }
+}

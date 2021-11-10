@@ -24,6 +24,7 @@ function Home() {
                     <li><Link to="/menus/hover-tabs/hover-tabs-basic">Hover Tabs</Link></li>
                     <li><Link to="/menus/top-navigation/top-navigation-basic">Top Navigation</Link></li>
                     <li><Link to="/menus/responsive-navigation-bar/responsive-navigation-bar-basic">Responsive Navigation Bar</Link></li>
+                    <li><Link to="/menus/navbar-icon/navbar-icon-basic">Navigation Bar with Icons</Link></li>
                 </ul>
             </div>
         </div>
