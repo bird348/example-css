@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.row-sm {
+    display: flex;
+}
+
+.left-sm {
+    flex: 36%;
+    padding: 15px 0;
+}
+
+.left-sm h2 {
+    padding-left: 8px;
+}
+
+.right-sm {
+    flex: 65%;
+    padding: 15px;
+}
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+/* list-style-type คือ สัญลักษณ์ฺข้องหน้าหัวข้อแบบรายการ
+ได้แก่ circke, square, upper-roman, lower-alpha เป็นต้น */
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#myMenu li a:hover {
+    background-color: #eee;
+}

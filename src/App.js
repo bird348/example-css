@@ -17,7 +17,8 @@ import HoverTabs from "./containers/menus/hover-tabs/HoverTabs";
 import TopNavigation from "./containers/menus/top-navigation/TopNavigation";
 import ResponsiveNavBar from "./containers/menus/responsive-navigation-bar/ResponsiveNavBar";
 import NavBarIcon from "./containers/menus/navbar-icon/NavBarIcon";
-
+import SearchMenu from "./containers/menus/search-menu/SearchMenu";
+import SearchBar from "./containers/menus/search-bar/SearchBar";
 
 
 function App() {
@@ -77,6 +78,12 @@ function App() {
         </Route>
         <Route path="/menus/navbar-icon/navbar-icon-basic" exact>
           <NavBarIcon />
+        </Route>
+        <Route path="/menus/search-menu/search-menu-basic" exact>
+          <SearchMenu />
+        </Route>
+        <Route path="/menus/search-bar/search-bar-basic" exact>
+          <SearchBar />
         </Route>
       </Switch>
     </Router>
